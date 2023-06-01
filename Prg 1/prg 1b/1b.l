@@ -10,7 +10,7 @@ NUM [0-9]
 \n  { return 0; }
 %%
 
-yywrap()
+int yywrap()
 {
 }
 
