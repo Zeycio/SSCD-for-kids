@@ -33,7 +33,7 @@ exp:exp '+' exp  {$$=$1+$3;}
       |A            {$1=yylval;}
 ;
 %%
-yyerror()
+int yyerror()
 {       }
 
 
