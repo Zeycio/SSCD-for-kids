@@ -1,0 +1,12 @@
+OUTPUT
+$ lex 1b.l
+$ yacc -d 1b.y
+$ cc 1b.c
+$ ./a.out
+
+ enter the expression
+1+2*3/3-2
+
+ result=1
+
+
