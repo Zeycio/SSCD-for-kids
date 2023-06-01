@@ -1,2 +1,2 @@
 # SSCD-for-kids
-copy and paste
+## copy and paste
