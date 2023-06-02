@@ -1,0 +1,34 @@
+OUTPUT
+$ cc 8.c
+$ ./a.out
+Enter the number of processes: 5
+
+Enter the number of resources: 4
+
+Enter the allocation for each process:
+For process 1: 2 0 1 0
+For process 2: 1 1 0 0
+For process 3: 1 1 0 0
+For process 4: 1 0 1 0
+For process 5: 0 1 0 1
+
+Enter the max claim for each process:
+For process 1:  3 2 1 1 
+For process 2: 1 2 0 2
+For process 3: 1 1 2 0
+For process 4: 3 2 1 0
+For process 5: 2 1 0 1
+
+Enter total number of each resource:
+6 4 4 2
+
+Available resources are: 1 1 2 1 
+Allocation matrix:	Max matrix:	Need matrix:
+2 0 1 0 		3 2 1 1 		1 2 0 1 
+1 1 0 0 		1 2 0 2 		0 1 0 2 
+1 1 0 0 		1 1 2 0 		0 0 2 0 
+1 0 1 0 		3 2 1 0 		2 2 0 0 
+0 1 0 1 		2 1 0 1 		2 0 0 0 
+
+The system is in a safe state!
+Safe sequence: ->3->4->5->1->2
