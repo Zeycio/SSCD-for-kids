@@ -1,0 +1,48 @@
+OUTPUT
+
+$ gcc 7.c -o 7
+$ ./7
+enter the choice :1
+enter no of jobs :
+4
+enter burst time :
+5
+12
+8
+20
+
+ bt	 wt	 tt
+
+ 5	 0	 5
+
+ 8	 5	 13
+
+ 12	 13	 25
+
+ 20	 25	 45
+aw=10.750000
+at=22.000000
+
+
+$ ./7
+enter the choice :2
+enter the no of process :
+3
+enter the time quantum :
+2
+enter the  process and burst time 
+1 4
+2 6
+3 2
+
+process	 bt	 wt	 tt
+
+ 1	 4	 4	 8
+
+ 2	 6	 6	 12
+
+ 3	 2	 4	 6
+
+aw=4.666667
+at=8.666667
+
