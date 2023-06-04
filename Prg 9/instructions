@@ -1,0 +1,46 @@
+OUTPUT
+
+$ gcc 9.c -o 9
+$ ./9
+
+Enter the number of empty Frames: 5
+Enter the string: hello
+
+
+**** MENU *****
+
+
+1. FIFO
+2. LRU
+3. EXIT
+Enter your choice: 1
+
+
+	PAGE	FRAMES	FAULTS
+	 h	h    	Page-Fault 0
+	 e	he   	Page-Fault 1
+	 l	hel  	Page-Fault 2
+	 l	hel  	No page fault
+	 o	helo 	Page-Fault 3
+
+To continue, enter 1. To exit, enter 0: 1
+Enter the string: hello
+
+
+**** MENU *****
+
+
+1. FIFO
+2. LRU
+3. EXIT
+Enter your choice: 2
+
+
+PAGE	FRAMES	FAULTS
+h	h    	Page-fault 1
+e	he   	Page-fault 2
+l	hel  	Page-fault 3
+l	hel  	No page fault
+o	helo 	Page-fault 4
+
+To continue, enter 1. To exit, enter 0: 0
