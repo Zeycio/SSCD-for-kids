@@ -1,0 +1,17 @@
+$ gcc 3.c -o 3
+$ ./3
+enter the no. of coordinates
+2
+enter the productions in a grammar
+A->aBa
+B->bB|@
+first pos
+FIRS[A]=a
+FIRS[B]=b@
+follow pos
+FOLLOW[A]=$
+FOLLOW[B]=a
+
+M[A,a]=A->aBa
+M[B,b]=B->bB
+M[B,a]=B->@
