@@ -1,0 +1,8 @@
+OUTPUT
+$ lex 6.l
+$ cc lex.yy.c -ll -w
+$ ./a.out input_file.c output_file.c
+
+ number of comments are = 5
+$ gedit output_file.c
+
