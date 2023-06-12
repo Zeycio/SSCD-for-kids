@@ -1,0 +1,42 @@
+OUTPUT
+$ lex 6b.l
+$ yacc -d 6b.y
+$ cc lex.yy.c y.tab.c -ll -w
+$ ./a.out file.c
+Keyword is void
+Identifier is main
+
+
+Keyword is int
+Identifier is a
+Operator is =
+Numbers is 80
+
+Keyword is float
+Identifier is b
+
+Keyword is char
+Identifier is d
+
+Keyword is if
+Identifier is a
+Operator is =
+Numbers is 80
+
+
+Identifier is printf
+Identifier is good
+
+
+Keyword is else
+
+
+Identifier is printf
+Identifier is bad
+
+
+
+numbers = 2
+Keywords = 6
+Identifiers = 9
+Operators = 2
